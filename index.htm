@@ -4,12 +4,28 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="main.js" defer></script>
+        <link rel="stylesheet" href="style.css">
         <title>Fund Me Web Page</title>
     </head>
     <body>
-        <h1>Hello!</h1>
-        <button id="connectBtn" onclick="connect()">Connect your wallet</button>
-        <h3>Wallet connected</h3>
+        <nav>
+            <li>
+                <a href="#">FUNDME</a>
+            </li>
+            <li>
+                <a href="https://github.com/iamansingh0" target="_blank">AMANK</a>
+            </li>
+        </nav>
+        <div class="box">
+            <h1>FundMe Smart Contract</h1>
+        <button id="connectBtn">
+            <a href="#">
+                Connect Your Wallet
+            </a>
+        </button>
+        </div>
+        <h3 class="connectedMsg">👌 Wallet Connected!</h3>
+        <p class="infoText">😭 click once again on button please :)</p>
+        <script src="main.js" type="module"></script>
     </body>
 </html>

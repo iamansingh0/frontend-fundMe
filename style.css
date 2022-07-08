@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    height: 9vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: #001f3f;
+    align-items: center;
+    margin-bottom: 5vh;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: rgb(226, 226, 226);
+    letter-spacing: 3px;
+
+}
+
+.box {
+    height: 60vh;
+    border: 1px solid black;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.box h1 {
+    font-size: 3vw;
+}
+
+.box #connectBtn {
+    height: 6vh;
+    background-color: rgba(230, 127, 17, 0.564);
+    box-shadow: 0px 0px 1px 1px rgb(0,0,0);
+    width: 25%;
+    font-size: 1rem;
+    font-style: bold;
+}
+
+.box #connectBtn a {
+    text-decoration: none;
+    color: rgb(15, 15, 16);
+    
+}
+.connectedMsg {
+    visibility: hidden;
+    margin-top: 4vh;
+    text-align: center;
+}
+
+.infoText {
+    visibility: hidden;
+    margin-top: 2vh;
+    text-align: center;
+}
+
+.box2 {
+    height: 40vh;
+    border: 1px solid black;
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    align-items: center;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.box2 input {
+    width: 70%;
+}
+
+.balanceBox {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 8vh;
+    align-items: center;
+}
+
+#balanceBtn {
+    width: 30%;
+    height: 70%;
+    position: relative;
+    right: 11px;
+    background-color: orange;
+}
+
+.balanceBox p {
+    color: black;
+    visibility: hidden;
+    font-size: 1.2rem;
+}
+
+#fund {
+    margin-left: 20px;
+    height: 70%;
+    width: 20%;
+    background-color: rgb(19, 241, 23);
+}
+
+input {
+    height: 70%;
+    padding: 2px;
+}
+
+.withdrawBox {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 8vh;
+    align-items: center;
+    
+}
+
+#withdraw {
+    width: 30%;
+    height: 70%;
+    position: relative;
+    right: 13px;
+    background-color: orange;
+}
+
+.withdrawBox p {
+    color: black;
+    visibility: hidden;
+    font-size: 1.2rem;
+}
