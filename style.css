@@ -117,7 +117,7 @@ nav li a {
 }
 
 input {
-    height: 70%;
+    height: 60%;
     padding: 2px;
 }
 
@@ -142,4 +142,10 @@ input {
     color: black;
     visibility: hidden;
     font-size: 1.2rem;
+}
+
+#withdraw,
+#fund,
+#balanceBtn:hover {
+    cursor: pointer;
 }
